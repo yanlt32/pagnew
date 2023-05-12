@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header img {
+    padding: 1.5em;
+    width: 10%;
+    height: 10%;
+    background-color: #3a3939;
+}
+
+.reciclagem video {
+    position: absolute;
+    margin-top: -3.99em;
+
+}
+
+.logo-eco img {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    left: 12%;
+    top: 1%;
+}
+
+.icon1-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 19.5em;
+    top: 3.9em;
+}
+
+.icon2-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 39em;
+    top: 3.9em;
+}
+
+.icon3-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 62.5em;
+    top: 3.7em;
+}
+
+.icon4-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 86.0em;
+    top: 3.7em;
+}
+
+.icon5-rodape img {
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 108em;
+    top: 3.9em;
+}
+
+.icon-home {
+    position: absolute;
+    width: 2%;
+    height: 1%;
+    left: 36%;
+    top: 2em;
+}
+
+@font-face {
+    font-family: 'Abel-Regular';
+    src: url('fonts/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.topnav a {
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 23px;
+    position: relative;
+    left: 150px;
+    top: -3.4em;
+    color: #ffffff;
+    text-align: center;
+    padding: 1% 2.5%;
+    text-decoration: none;
+}
+
+.banner-gif {
+    text-align: center;
+    padding: 15px;
+}
+
+.cabecalho {
+    margin: 0;
+    background-color: #3a3939;
+    width: 100%;
+    height: 8em;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #3a3939;
+}
+
+.nargas video {
+    position: relative;
+    top: -65px;
+}
+
+.sus {
+
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    left: 72px;
+    top: 350px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 1000%;
+    font-size: 40px;
+    line-height: 58px;
+
+    color: #ffffff;
+
+
+}
+
+.topnav a:hover {
+    color: #c5c3c3;
+    background-color: #3f3e3e9f;
+}
+
+@font-face {
+    font-family: 'Greatvibes';
+    src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.descrição p {
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 2em;
+    margin: 4;
+
+}
+
+.morvan {
+
+    position: absolute;
+    width: 197px;
+    height: 44px;
+    left: 41px;
+    top: 84px;
+
+    font-family: 'Abel-regular', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.indu {
+    position: absolute;
+    width: 230px;
+    height: 87px;
+    left: 860px;
+    top: 154%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 75px;
+
+    color: #000000;
+
+    background-image:
+        linear-gradient(to bottom,
+            transparent 0%,
+            transparent 90%,
+            rgb(0, 0, 0) 90%,
+            rgba(0, 0, 0, 0.712) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 400ms;
+}
+
+.indu:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.indu2 {
+    position: absolute;
+    width: 230px;
+    height: 87px;
+    left: 890px;
+    top: 175%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer {
+    background-color: #3a3939;
+    padding: 5em 0;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+.footer-col .medias-socias {
+    margin-top: 30px;
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.social-buttons {
+    position: relative;
+    left: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3939;
+    box-shadow: 0px 0px 0px #00000027;
+    padding: 15px 10px;
+    border-radius: 5em;
+}
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #a59393;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+}
+
+.social-button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 4px 1px #00000027;
+}
+
+.social-buttons svg {
+    transition: 0.3s;
+    height: 20px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook svg {
+    fill: #f2f2f2;
+}
+
+.facebook:hover svg {
+    fill: #3b5998;
+}
+
+.github {
+    background-color: #333;
+}
+
+.github svg {
+    width: 25px;
+    height: 25px;
+    fill: #f2f2f2;
+}
+
+.github:hover svg {
+    fill: #333;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.linkedin svg {
+    fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+    fill: #0077b5;
+}
+
+.instagram {
+    background-color: #c13584;
+}
+
+.instagram svg {
+    fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+    fill: #c13584;
+}
+
+.senairodape img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 280px;
+    height: 70px;
+    position: relative;
+    left: 17em;
+    top: -4em;
+}
+
+.desenvolvedores h2 {
+    display: flex;
+    width: 2em;
+    width: 485px;
+    height: 122px;
+    left: 3em;
+    position: relative;
+    top: -3em;
+    font-family: 'Abel-regular', Times, serif;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 1% 2.5%;
+    line-height: 61px;
+    font-style: normal;
+
+}
+
+.reciclagemrodape img {
+    position: absolute;
+    width: 245px;
+    height: 239px;
+    left: 53em;
+    top: 480%;
+
+}
+
+.button {
+    position: relative;
+    left: 13em;
+    top: -4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #007ACC;
+    outline: 3px #007ACC solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+}
+
+.button svg path {
+    transition: 400ms;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button:hover .text {
+    color: #007ACC;
+}
+
+.button:hover svg path {
+    fill: #007ACC;
+}
+
+.srodape {
+    background-color: #232323;
+    padding: 2em 0;
+
+}
+
+.srodape h4 {
+    color: #fdfdfd;
+    position: absolute;
+    top: 143.7em;
+    left: 3em;
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 1.5em;
+}
+
+.srodape img {
+    position: absolute;
+    left: 2.7em;
+    top: 215.5em;
+}
+
+.feito h4 {
+    color: #fdfdfd;
+    position: absolute;
+    top: 143.6em;
+    left: 60em;
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 1.5em;
+
+}
+
+.feito img {
+    position: absolute;
+    left: 87.5em;
+    top: 215.5em;
+}
+
+.por h4 {
+    color: #0a0a0a;
+    position: absolute;
+    top: 203.6em;
+    left: 65.6em;
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 1.5em;
+}
+
+.por img {
+    position: absolute;
+    left: 96.2em;
+    top: 315.5em;
+}
+
+.coroa img {
+    position: absolute;
+    left: 106.3em;
+    top: 215.5em;
+}
+
+.cardrosa {
+    position: absolute;
+    width: 1200px;
+    height: 120%;
+    left: 350px;
+    top: 170%;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+
+    background: #ecebebb2;
+}
+
+.textilimg img {
+    position: absolute;
+    left: 35%;
+    top: 180%;
+    width: 30%;
+}
+
+.conteudo {
+    position: absolute;
+    width: 48%;
+    height: 824px;
+    left: 25%;
+    top: 231%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: justify;
+
+}
+.saibatButton {
+    position: relative;
+    top:1150px;
+    left: 44%;
+ color: #090909;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #e8e8e8;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.saibatButton:active {
+ color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+.cardrosa1 {
+    position: absolute;
+    width: 1200px;
+    height: 120%;
+    left: 350px;
+    top: 320%;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+
+    background: #ecebebb2;
+}
+
+.textilimg1 img {
+    position: absolute;
+    left: 35%;
+    top: 340%;
+    width: 30%;
+}
+
+.conteudo1 {
+    position: absolute;
+    width: 48%;
+    height: 824px;
+    left: 25%;
+    top: 391%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: justify;
+
+}
+.indu1 h2 {
+    position: absolute;
+    width: 230px;
+    height: 87px;
+    left: 870px;
+    top: 333%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 65px;
+}
+.saibatButton1 {
+    position: relative;
+    top:2590px;
+    left: 44%;
+ color: #090909;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #e8e8e8;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.saibatButton1:active {
+ color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
