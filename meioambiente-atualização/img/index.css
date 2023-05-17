@@ -1,0 +1,544 @@
+.btn-login{
+  background-color: #DEB887;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.btn-login a{
+  text-decoration: none;
+  color: black;
+}
+
+.descrição{
+  width: 50%;
+  float: left;
+}
+@font-face {
+  font-family: 'Greatvibes';
+  src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;}
+
+.descrição h1{
+  font-family: 'Abel-regular', Times, serif;
+  font-size: 2em;
+  font-weight:800px;
+  margin: 0;
+  margin-right: 300px;
+  font-size: 50px;
+}
+
+.descrição h2{
+  margin-right: 500px;
+  font-size: 30px;
+}
+@font-face {
+  font-family: 'Greatvibes';
+  src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;}
+
+.descrição p{
+  font-family: 'Abel-regular', Times, serif;
+   font-size: 2em;
+   margin: 4;
+  
+}
+
+.fotodrmonique{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fotodrmonique img{
+  opacity: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #DEB887;
+  padding: 1px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  display: flex;
+  justify-content: space-around;
+ border-top: 2px solid black;
+  overflow: hidden;
+  background-color: #DEB887;
+}
+
+/* Style the topnav links */
+.topnav a { 
+  display: flex;
+justify-content: space-around;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ac7e46;
+  color: black;
+}
+
+@font-face {
+   font-family: 'Abel-regular';
+   src: url('fonts/Abel-Regular.ttf') format('truetype');
+   font-weight: normal;
+}
+body {
+   font-family: OCR A Std, monospace;
+}
+.bem-vindo p {
+   font-family: 'Abel-regular', Times, serif;
+   font-size: 3em;
+   margin: 0;
+}
+
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: bold;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+.bvd-msg p {
+  font-family: 'Abel-regular', Times, serif;
+  font-size: 3em;
+  margin: 0;
+}
+
+.bvd-msg p{
+  width: 30%;
+  padding-top: -5px;
+  font-size: 20px;
+}
+
+.container-icons{
+  background-color: #EDE3DA;
+}
+
+.icons-derma ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: bold;}
+
+.txt-icons ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: bold;}
+
+.txt-icons ul{
+  font-family: 'Abel-regular', Times, serif;
+  font-size: 2em;
+  margin: 0;}
+  
+
+.info-icons ul{  
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+.info-icons ul li{
+  width: 20%;
+}
+
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+.info-icons ul {
+  font-family: 'Abel-regular', Times, serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn-sbmais1{
+  color: #FFF;
+  background-color: black;
+  border: none;
+  height: 60px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn-sbmais2{
+  color: #FFF;
+  background-color: black;
+  border: none;
+  height: 60px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn-sbmais3{
+  color: #FFF;
+  background-color: black;
+  border: none;
+  height: 60px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btnsbmais{
+  margin: 0;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+.quem-somos h1 {
+  font-family: 'Abel-regular', Times, serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+}
+
+.container-qmsomos{
+  background-color: #F2EDE9;
+}
+
+.quem-somos h1{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.quem-somos-info{
+  position: absolute;
+  left: 800px;
+  top: 950px;
+  width: 500px;
+  font-size: small;
+}
+
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+.quem-somos-info h1 {
+  font-family: 'Abel-regular', Times, serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.quem-somos-foto img{
+  width: 1000px;
+  height: 500px;
+  width: 662px;
+  height: 441px;
+}
+
+.container-laser{
+  background-color: #EDE3DA;
+}
+
+.sb-mais-foto img{
+  padding: 50px;
+}
+
+.sb-mais-info h1{
+  width: 600px;
+  position: absolute;
+  left: 700px;
+  top: 1900px;
+}
+
+font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+.sb-mais-info h1 {
+  position: absolute;
+  top: 1550px;
+  font-family: 'Abel-regular', Times, serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+.sb-mais-info h2 {
+    font-family: 'Abel-regular', Times, serif;
+
+    font-size: 3em;
+}
+
+.sb-mais-info h2{
+  width: 600px;
+  position: absolute;
+  left: 700px;
+  top: 1700px;
+  font-size: 30px;
+}
+
+.agd-consulta h1{
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-agdcns{
+  color: #FFF;
+  background-color: black;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+  position: absolute;
+  left: 900px;
+  top: 2090px;
+  display: flex;
+  justify-content: center;
+}
+
+.contato-derma-info h3{
+  width: 350px;
+}
+
+.foto-recepcao img{
+  position: absolute;
+  left: 900px;
+  top: 2600px;
+  width: 900px;
+  height: 400px;
+  
+}
+
+.img-agendamento{
+  background-color: #ffffff;
+}
+
+.img-agendamento img{
+  padding: 30px;
+}
+
+.contato-derma-info h1{
+  position: absolute;
+  left: 1300px;
+  top: 2450px;
+}
+
+.contato-derma-info h2{
+  position: absolute;
+  left: 1300px;
+  top: 2300px;
+}
+
+.contato-derma-info h3{
+  position: absolute;
+  left: 1300px;
+  top: 2340px;
+}
+
+.btncontato{
+  color: #FFF;
+  background-color: black;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  text-decoration: none;
+  position: absolute;
+  left: 1400px;
+  top: 2490px;
+}
+
+.geral{
+  margin: 0%;
+  padding: 0px 0px;
+  background-color: #EDE3DA;
+}
+
+@font-face {
+  font-family: 'Greatvibes';
+  src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+.header h1 {
+  font-family: 'Greatvibes', Times, serif;
+  font-size: 3em;
+}
+
+@font-face {
+  font-family: 'Abel-regular';
+  src: url('fonts/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  font-family: OCR A Std, monospace;
+}
+.agd-consulta h1 {
+  font-family: 'Abel-regular', Times, serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* inicio do footer*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+footer{
+  background-color: #CBAF92;
+  padding: 50px 0;
+}
+.container-footer{
+  max-width: 1400px;
+  padding: 0 4%;
+  margin: auto;
+}
+.row-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+}
+.footer-col ul{
+  list-style: none;
+}
+.footer-col ul li{
+  margin: 10px 0;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #cecdcd;
+  padding-left: 10px;
+}
+.footer-col .medias-socias{
+  margin-top: 30px;
+}      
+
+/* Responsivo */
+@media (max-width: 800px) {
+  .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+}
+@media (max-width:600px) {
+  .footer-col{
+      width: 100%;
+  }
+}
+.medias-socias{
+  position: absolute;
+  top: 2870px;
+ left: 880px;
+}
+.medias-socias1{
+  position: absolute;
+  top: 2864px;
+ left: 920px;
+}
+
+@font-face {
+  font-family: 'Greatvibes';
+  src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+.derma  {
+  font-family: 'Greatvibes', Times, serif;
+  font-size: 3em;
+}
+
